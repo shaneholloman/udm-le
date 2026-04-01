@@ -1,5 +1,23 @@
 # Let's Encrypt for Ubiquiti UniFi OS
 
+## Deprecation Notice
+
+UniFi OS 5.1 now has support built in for DNS based issuance of Let's Encrypt certificates (found under Control Plane > Console).
+
+Currently it supports several providers including:
+
+* Cloudflare
+* DigitalOcean
+* Dyno
+* GoDaddy
+* OVH
+* Porkbun
+* Route53
+
+**In a nutshell, you probably don't need to use udm-le as it is for the most part obsolete.**
+
+I have not personally verified if it manages the Radius and Hotspot certificates, but in all likelihood this project is not necessary any longer.
+
 ## Overview
 
 This should work on UniFi devices running UniFi OS 2.x or later, including:
